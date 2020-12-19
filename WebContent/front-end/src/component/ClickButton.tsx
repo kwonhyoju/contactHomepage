@@ -34,6 +34,7 @@ class ClickButton extends Component<Props, {}>{
 
         return(
             <div>
+                hyoju
                 {/* <button onClick={this.apiTestBtn}>API button</button> */}
             </div>
         );
