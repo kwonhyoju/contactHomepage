@@ -11,6 +11,9 @@
         .image {
             display: flex;
             align-items: center;
+            >img {
+                width: 530px;
+            }
         }
         .content-container {
             display: flex;

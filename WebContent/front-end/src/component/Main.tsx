@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import developer from "../images/developer.jpg";
 import "../scss/Main.scss";
 
 class Main extends Component{
@@ -10,7 +11,7 @@ class Main extends Component{
                     <p className="title">Hong gildong</p>
                     <div className="content-container">
                         <div className="image">
-                            <img src="../images/developer.jpg"/>
+                            <img src={developer} alt="developer image"/>
                         </div>
                         <div className="btn-list">
                             <div className="btn"><p className="btn-title">About me</p></div>
