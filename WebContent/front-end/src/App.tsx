@@ -1,11 +1,12 @@
 import React from 'react';
-import ClickButton from './component/ClickButton';
-import './scss/App.css';
+// import ClickButton from './component/ClickButton';
+import Main from './component/Main';
+import './scss/index.scss';
 
 function App() {
   return (
     <div className="App">
-      <ClickButton/>
+      <Main/>
     </div>
   );
 }
